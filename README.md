@@ -4,7 +4,7 @@ Heartcare Suite: Multi-dimensional Understanding of ECG with Raw Multi-lead Sign
 </h1>
 
 <div align="center">
-Yihan Xie<sup>1*</sup>, Sijing Li<sup>1*</sup>, Tianwei Lin<sup>1*</sup>, Zhuonan Wang<sup>1</sup>, Chenglin Yang<sup>1</sup>, Yu Zhong<sup>1</sup>, Wenqiao Zhang<sup>1</sup>, Haoyuan Li<sup>2</sup>, Hao Jiang<sup>2</sup>, Fengda Zhang<sup>1</sup>, Qishan Chen<sup>3</sup>, Jun Xiao<sup>1</sup>, Yueting Zhuang<sup>1</sup>, Beng Chin Ooi<sup>4</sup>
+Yihan Xie<sup>1, *</sup>, Sijing Li<sup>1, *</sup>, Tianwei Lin<sup>1, *</sup>, Zhuonan Wang<sup>1, *</sup>, Chenglin Yang<sup>1</sup>, Yu Zhong<sup>1</sup>, Wenqiao Zhang<sup>1</sup>, Haoyuan Li<sup>2</sup>, Hao Jiang<sup>2</sup>, Fengda Zhang<sup>1</sup>, Qishan Chen<sup>3</sup>, Jun Xiao<sup>1</sup>, Yueting Zhuang<sup>1</sup>, Beng Chin Ooi<sup>4</sup>
 <br><br>
 
 <sup>1</sup>Zhejiang University,
