@@ -1,5 +1,5 @@
 <h1 align = "center">
-<img src="images/logo.png" alt="icon" style="width:40px; vertical-align:middle;" />
+<img src="images/logo.png" alt="icon" style="width:50px; vertical-align:middle;" />
 Heartcare Suite: Multi-dimensional Understanding of ECG with Raw Multi-lead Signal Modeling
 </h1>
 
