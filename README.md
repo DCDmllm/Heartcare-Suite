@@ -15,7 +15,9 @@ Yihan Xie<sup>1, *</sup>, Sijing Li<sup>1, *</sup>, Tianwei Lin<sup>1, *</sup>, 
 <br><br>
 </div>
 
+<p align="center">
 <img src="images/HeartcareGPT.png" style="vertical-align:middle;" />
+</p>
 
 Although electrocardiograms (ECG) play a dominant role in cardiovascular diagnosis and treatment, their intrinsic data forms and representational patterns pose significant challenges for medical multimodal large language models (Med-MLLMs) in achieving cross-modal semantic alignment. To address this gap, we propose **Heartcare Suite**, a unified ECG suite designed for dual signal-image modeling and understanding. (i) **Heartcare-400K:** We build a finegrained ECG instruction dataset on top of our data pipeline engine—**HeartAgent**—by integrating 12,170 high quality clinical ECG reports from top hospitals with open-source data; (ii) **Heartcare-Bench:** a systematic benchmark assessing performance of models in multi-perspective ECG understanding and cross-modal generalization, providing guidance for optimizing ECG comprehension models; (iii) **HeartcareGPT:** built upon a structure-aware discrete tokenizer **Beat**, we propose the **DSPA (Dual Stream Projection Alignment)** paradigm—a dual encoder projection alignment mechanism enabling joint optimizing and modeling native ECG signal-image within a shared feature space. Heartcare achieves consistent improvements across diverse ECG understanding tasks, validating both the effectiveness of the unified modeling paradigm and the necessity of a high-quality data pipeline, and establishing a methodological foundation for extending Med-MLLMs toward physiological signal domains.
 
@@ -29,7 +31,9 @@ We construct **Heartcare-400K**, a large-scale, fine-grained, multi-task multimo
 
 To transform heterogeneous ECG data into structured annotations, we develop **HeartAgent**, a multimodal engine with a bottom-up pipeline that ensures annotation consistency and generates high-quality instruction-style VQA pairs.
 
+<p align="center">
 <img src="images/engine.png" style="width:80%;vertical-align:middle;" />
+</p>
 
 ## Benchmark: Heartcare-Bench
 
@@ -41,6 +45,8 @@ We propose **Bidirectional ECG Abstract Tokenization (Beat)**, a hierarchical, s
 
 The dual-form characteristics of ECG introduce unique structural complexity in modeling. We propose **HeartcareGPT**, aiming to build ECG-specific Med-MLLMs. We design **Bidirectional ECG Abstract Tokenization (Beat)**, a structure-aware discrete encoding mechanism centered on vector quantization, which maps high-frequency continuous signals into token sequences. The design comprises three components: (i) *Dual-level Vector Quantization (DVQ)*, which refines rhythm and inter-lead phase dependencies captured by the codebook to achieve high-fidelity compression; (ii) *Query-guided Bidirectional Diffusion (QBD)*, which jointly models past and future contexts within the latent token space to support both signal reconstruction and prediction; and (iii) *Joint Supervision Strategy*, which jointly optimizes reconstruction and prediction to maximize clinical semantic fidelity during encoding. Furthermore, we propose **Dual Stream Projection Alignment (DSPA)**, which employs dual experts to separately process ECG inputs.
 
+<p align="center">
 <img src="images/method.png" style="vertical-align:middle;" />
+</p>
 
 Through distinct preprocessing strategies and modality-specific encoders, ECG representations are transformed into embeddings compatible with Med-MLLMs. All modality embeddings are projected into a shared language space and concatenated into a unified sequence, enabling cross-modal joint reasoning for ECG under a unified autoregressive paradigm.
