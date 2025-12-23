@@ -21,7 +21,7 @@ Although electrocardiograms (ECG) play a dominant role in cardiovascular diagnos
 
 ## Dataset: Heartcare-400K
 
-We construct **Heartcare-400K**, a large-scale, fine-grained, multi-task multimodal ECG instruction dataset. It combines two sources: the public [PTB-XL dataset](https://physionet.org/content/ptb-xl/1.0.3/) with 21,799 12-lead ECG signals annotated with 179 SCP-ECG classes, and 12,170 ECG images with structured reports from top hospitals, including scanned traces, clinical conclusions, and de-identified metadata---substantially enriching modality and label diversity.
+We construct **Heartcare-400K**, a large-scale, fine-grained, multi-task multimodal ECG instruction dataset. It combines two sources: the public [PTB-XL dataset](https://physionet.org/content/ptb-xl/1.0.3/) with 21,799 12-lead ECG signals annotated with 179 SCP-ECG classes, and 12,170 ECG images with structured reports from top hospitals, including scanned traces, clinical conclusions, and de-identified metadata—substantially enriching modality and label diversity.
 
 <p align="center">
 <img src="images/dataset.jpg" style="width:50%;vertical-align:middle;" />
@@ -33,7 +33,7 @@ To transform heterogeneous ECG data into structured annotations, we develop **He
 
 ## Benchmark: Heartcare-Bench
 
-We propose **Heartcare-Bench**, the first fine-grained, multidimensional evaluation framework for ECG diagnostic intelligence, designed to assess a spectrum of model capabilities ranging from feature recognition to reasoning. Built upon Heartcare-400K, Heartcare-Bench systematically covers five major task types---closed-ended QA, open-ended QA, comparative QA, report generation, and signal prediction---spanning key diagnostic dimensions such as rhythm, waveform, and morphology. It comprises three complementary modality subsets: **Signal** (S), **Image** (I), and **Cross-Modal** (C), enabling unified evaluation from single-modality reasoning to multi-ECG semantic alignment. With a hierarchical, multi-metric scoring system, Heartcare-Bench integrates knowledge reasoning and cross-modal understanding within a unified evaluation coordinate.
+We propose **Heartcare-Bench**, the first fine-grained, multidimensional evaluation framework for ECG diagnostic intelligence, designed to assess a spectrum of model capabilities ranging from feature recognition to reasoning. Built upon Heartcare-400K, Heartcare-Bench systematically covers five major task types—closed-ended QA, open-ended QA, comparative QA, report generation, and signal prediction—spanning key diagnostic dimensions such as rhythm, waveform, and morphology. It comprises three complementary modality subsets: **Signal** (S), **Image** (I), and **Cross-Modal** (C), enabling unified evaluation from single-modality reasoning to multi-ECG semantic alignment. With a hierarchical, multi-metric scoring system, Heartcare-Bench integrates knowledge reasoning and cross-modal understanding within a unified evaluation coordinate.
 
 ## Model: HeartcareGPT
 
