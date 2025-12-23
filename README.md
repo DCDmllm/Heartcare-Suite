@@ -32,7 +32,7 @@ We construct **Heartcare-400K**, a large-scale, fine-grained, multi-task multimo
 To transform heterogeneous ECG data into structured annotations, we develop **HeartAgent**, a multimodal engine with a bottom-up pipeline that ensures annotation consistency and generates high-quality instruction-style VQA pairs.
 
 <p align="center">
-<img src="images/engine.png" style="width:80%;vertical-align:middle;" />
+<img src="images/engine.png" style="width:70%;vertical-align:middle;" />
 </p>
 
 ## Benchmark: Heartcare-Bench
