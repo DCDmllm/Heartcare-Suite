@@ -13,7 +13,7 @@ Yihan Xie<sup>1, *</sup>, Sijing Li<sup>1, *</sup>, Tianwei Lin<sup>1, *</sup>, 
 <sup>4</sup>National University of Singapore
 </div>
 
-<a align = "center" href='https://arxiv.org/abs/2506.05831'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
+<center><a href='https://arxiv.org/abs/2506.05831'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a></center>
 
 <img src="images/HeartcareGPT.jpg" style="vertical-align:middle;" />
 
