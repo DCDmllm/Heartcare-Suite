@@ -4,7 +4,7 @@ Heartcare Suite: A Unified Multimodal ECG Suite for Dual Signal-Image Modeling a
 </h1>
 
 <div align="center">
-Yihan Xie<sup>1, *</sup>, Sijing Li<sup>1, *</sup>, Tianwei Lin<sup>1, *</sup>, Zhuonan Wang<sup>1, *</sup>, Chenglin Yang<sup>1</sup>, Yu Zhong<sup>1</sup>, Wenjie Yan<sup>1</sup>, Wenqiao Zhang<sup>1</sup>, Xiaogang Guo<sup>1</sup>, Jun Xiao<sup>1</sup>, Yueting Zhuang<sup>1</sup>, Beng Chin Ooi<sup>2</sup>
+Yihan Xie<sup>1, *</sup>, Sijing Li<sup>1, *</sup>, Zhuonan Wang<sup>1, *</sup>, Tianwei Lin<sup>1, *</sup>, Chenglin Yang<sup>1</sup>, Yu Zhong<sup>1</sup>, Wenjie Yan<sup>1</sup>, Wenqiao Zhang<sup>1</sup>, Xiaogang Guo<sup>1</sup>, Jun Xiao<sup>1</sup>, Yueting Zhuang<sup>1</sup>, Beng Chin Ooi<sup>2</sup>
 <br><br>
 
 <sup>1</sup>Zhejiang University,
