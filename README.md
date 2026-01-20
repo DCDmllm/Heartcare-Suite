@@ -1,5 +1,5 @@
 <h1 align = "center">
-<img src="images/logo.png" alt="icon" style="width:50px; vertical-align:middle;" />
+<img src="images/logo.jpg" alt="icon" style="width:50px; vertical-align:middle;" />
 Heartcare Suite: A Unified Multimodal ECG Suite for Dual Signal-Image Modeling and Understanding 
 </h1>
 
