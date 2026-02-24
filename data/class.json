@@ -82,5 +82,20 @@
         "trigeminal pattern",
         "paroxysmal supraventricular tachycardia",
         "bigeminal pattern"
+    ],
+    "misc": [
+        "burst noise",
+        "static noise",
+        "baseline drift",
+        "electrodes problems",
+        "extreme axis deviation",
+        "right axis deviation",
+        "left axis deviation",
+        "normal heart axis",
+        "old stage of myocardial infarction",
+        "early stage of myocardial infarction",
+        "middle stage of myocardial infarction",
+        "ventricular extrasystoles",
+        "supraventricular extrasystoles"
     ]
 }
